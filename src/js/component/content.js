@@ -3,8 +3,8 @@ function Content() {
   return (
     <React.StrictMode>
 
-      <div className=" w-75  mx-auto my-4 ">
-        <div className="card-body  bg-light p-5">
+      <div className="container my-3">
+        <div className="card-body  bg-light p-5 rounded">
           <p className="card-title" style={{ fontSize: '5rem' }}>A Warm Welcome!</p>
           <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas possimus cupiditate sed sequi nemo? Quo ipsa, saepe nihil consequuntur sunt adipisci tempore temporibus, deserunt iure aliquid quisquam veniam libero odio!</p>
           <a href="#" className="btn btn-primary">Call to action!</a>
