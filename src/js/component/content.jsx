@@ -1,50 +1,12 @@
 import React from "react";
 function Content() {
   return (
-    <React.StrictMode>
-
-      <div className="container my-3">
-        <div className="card-body  bg-light p-5 rounded">
-          <p className="card-title" style={{ fontSize: '5rem' }}>A Warm Welcome!</p>
-          <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas possimus cupiditate sed sequi nemo? Quo ipsa, saepe nihil consequuntur sunt adipisci tempore temporibus, deserunt iure aliquid quisquam veniam libero odio!</p>
-          <a href="#" className="btn btn-primary">Call to action!</a>
-        </div>
+    
+      <div className="jumbotron container my-3 bg-light my-5">
+        <h1 className="display-4 fw-normal">A Warm Welcome!</h1>
+        <p className="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas possimus cupiditate sed sequi nemo? Quo ipsa, saepe nihil consequuntur sunt adipisci tempore temporibus, deserunt iure aliquid quisquam veniam libero odio!</p>
+        <a className="btn btn-primary btn-lg" href="#" role="button">Call to action!</a>
       </div>
-    {/* <div className="row">
-      <div class="card col-3">
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card col-3">
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card col-3">
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card col-3">
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      </div> */}
-    </React.StrictMode>
 
   )
 }
