@@ -1,4 +1,16 @@
-// import React from "react";
+import React from "react";
+function Footer () {
+    return(
+    <nav className="w-100 navbar bg-dark">
+    <div className="container-fluid d-flex justify-content-center ">
+        <span className="navbar-brand mb-0 h1 text-white">CopyRight © Your Website 2019</span>
+    </div>
+    </nav>
+
+    )
+    
+}
+export default Footer;
  
 
 // En react(archivos con la extension:jsx) las funciones o en general
