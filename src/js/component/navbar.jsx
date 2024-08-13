@@ -2,7 +2,7 @@ import React from "react";
 // exportacion del componente
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark vw-100">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark w-100">
       <div className="container-fluid d-flex flex-row justify-content-between mx-4 ">
         <div>
           <h4 className="navbar-brand text-info" href="#">Start Bootstrap</h4>

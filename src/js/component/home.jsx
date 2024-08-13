@@ -8,13 +8,20 @@ import Cards from "./cards";
 
 //create your first component
 const Home = () => {
-	// const TITULOS_DE_CARTA=['First card title', 'Second card title','Third card title','Fourth card title'];
+	const TITULOS_DE_CARTA=['First card title', 'Second card title','Third card title','Fourth card title'];
 
 	return (
+		// la etiqueta puede tener cualquier valor
 		<React.StrictMode>
 		<Navbar/>
 		<Content/>
-		<Cards/>
+		<div className="d-flex flex-row justify-content-center"> {/* me funciono centrar con esto y no con la clase container de boostrap */}
+        <div className="row d-flex flex-row ">
+          {TITULOS_DE_CARTA.map((item, index) => 
+            <Cards key={index} titulo={item} />
+          )}
+        </div>
+      </div>
 		</React.StrictMode>
 		
 	);

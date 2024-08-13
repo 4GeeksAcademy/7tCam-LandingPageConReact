@@ -10,4 +10,5 @@ import Home from "./component/home.jsx";
 
 //render your react application
 ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
+// esto el componente raiz de React escrito en JS por react utiliza a JS para definir su logica
 
