@@ -13,7 +13,7 @@ const Home = () => {
 
 	return (
 		// la etiqueta puede tener cualquier valor
-		<div className="container-fluid">
+		<div className="overflow-hidden"> {/*oculta cualquier deborde de us hijos*/}
 			<Navbar />
 			<Content />
 			<div className="d-flex justify-content-center"> {/* me funciono centrar con esto y no con la clase container de boostrap */}
